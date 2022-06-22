@@ -4,7 +4,7 @@
 - Postman
 - Jmeter
 - CheckLists
-- Bag Reports
+- Bug Reports
 - SQL
 - Charles
 - Mobile testing
@@ -18,7 +18,7 @@ cd GitBranch
 git branch Postman
 git branch Jmeter
 git branch CheckLists
-git branch BagReports
+git branch BugReports
 git branch SQL
 git branch Charles
 git branch MobileTesting
@@ -28,16 +28,16 @@ git branch MobileTesting
 git push -u origin Postman
 git push -u origin Jmeter
 git push -u origin CheckLists
-git push -u origin BagReports
+git push -u origin BugReports
 git push -u origin SQL
 git push -u origin Charles
 git push -u origin MobileTesting
 или
 git push -u origin --all
  
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-git checkout BagReports
-cat >> bagreport.txt
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
+git checkout BugReports
+cat >> bugreport.txt
 Summary
 Project
 Component
@@ -51,12 +51,12 @@ Ctrl+C
 
 4. Запушить структуру багрепорта на внешний репозиторий
 git add .
-git commit -m "adding bagreport file"
+git commit -m "adding bugreport file"
 git push
 
-5. Вмержить ветку Bag Reports в Main
+5. Вмержить ветку Bug Reports в Main
 git checkout main
-git merge BagReports -m "merge bagreports"
+git merge BugReports -m "merge bugreports"
 
 6. Запушить main на внешний репозиторий.
 git push
