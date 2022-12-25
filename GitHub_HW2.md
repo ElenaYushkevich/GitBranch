@@ -54,7 +54,8 @@ Severity
 Priority
 Steps to Reproduce
 Actual Result
-Expected ResultAdditional Information
+Expected Result
+Additional Information
 Ctrl+C
 ```
 4. Запушить структуру багрепорта на внешний репозиторий
