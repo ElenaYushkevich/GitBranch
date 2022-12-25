@@ -41,7 +41,9 @@ git push -u origin MobileTesting
 git push -u origin --all
 ```
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
+```bash
 git checkout BugReports
+```
 ```bash
 cat >> bugreport.txt
 Summary
