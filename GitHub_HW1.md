@@ -1,8 +1,7 @@
 ﻿GIT Homework 1
 
-###
-JSON
-###
+**JSON**
+
  4. Создать внешний репозиторий c названием JSON.
 ```bash
 Github - Repositories - New - Repository Name JSON, Public - Creat Repository
@@ -30,14 +29,14 @@ git commit -m "add the json file"
 git push
 ```
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-```bash
+```txt
 cat >> new.json
 {
-"FirstName" : "Lena",
-"LastName"  : "Yushkevich",
-"Age"       : "13",
-"Pet"       : "0",
-"Pay"       : "5000"
+   "FirstName" : "Lena",
+   "LastName"  : "Yushkevich",
+   "Age"       : "13",
+   "Pet"       : "0",
+   "Pay"       : "5000"
 }
 ```
  11. Отправить изменения на внешний репозиторий.
@@ -51,14 +50,14 @@ git push
 touch preferences.json
 ```
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-```bash
+```txt
 cat >> preferences.json
 { 
-"Movie"     : "BrestFortress"
-"SoapOpera" : "Svaty"
-"Food"      : "IceCream"
-"Season"    : "Summer"
-"Country"   : "Switzerland"
+   "Movie"     : "BrestFortress"
+   "SoapOpera" : "Svaty"
+   "Food"      : "IceCream"
+   "Season"    : "Summer"
+   "Country"   : "Switzerland"
 } 
 ```
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
@@ -66,15 +65,15 @@ cat >> preferences.json
 touch sklls.json
 cat >> sklls.json
 {
-	"skill1" : "Json",
-	"skill2" : "JavaScript",
-	"skill3" : "AndroidStudio",
-	"skill4" : "SQL",
-	"skill5" : "VPN",
-	"skill6" : "HTTP",
-	"skill7" : "GIT",
-	"skill8" : "Postman"
- "skill9" : "Charles"
+   "skill1" : "Json",
+   "skill2" : "JavaScript",
+   "skill3" : "AndroidStudio",
+   "skill4" : "SQL",
+   "skill5" : "VPN",
+   "skill6" : "HTTP",
+   "skill7" : "GIT",
+   "skill8" : "Postman"
+   "skill9" : "Charles"
 } 
 ```
  15. Отправить сразу 2 файла на внешний репозиторий.
@@ -100,7 +99,7 @@ JSON - Add File - Create new file - file name: bug_report.json
 Commit new file
 ```
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-```bash
+```txt
 {
   "id"                  : "1",
   "Summary"             : "LoginDialog",
@@ -123,9 +122,8 @@ Commit changes
 ```bash
 git pull
 ```
-###
-XML
-###
+**XML**
+
  21. Создать внешний репозиторий c названием XML.
 ```bash
 Github - Repositories - New - Repository Name XML, Public - Creat Repository
@@ -153,7 +151,7 @@ git commit -m "add the file new xml"
 git push
 ```
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-```bash
+```txt
 cat >> new.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
@@ -175,7 +173,7 @@ git push
 touch preferences.xml
 ```
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-```bash
+```txt
 cat >> preferences.json
 <?xml version="1.0" encoding="UTF-8"?>
 <prefer>
@@ -187,7 +185,7 @@ cat >> preferences.json
 </prefer>
 ```
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
-```bash
+```txt
 touch sklls.xml
 cat >> sklls.xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -244,9 +242,8 @@ Commit changes
 ```bash
 git pull
 ```
-###
-TXT
-###
+**TXT**
+
  1. Создать внешний репозиторий c названием TXT.
 ```bash
 Github - Repositories - New - Repository Name TXT, Public - Creat Repository
